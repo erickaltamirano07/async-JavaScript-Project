@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/erickaltamirano07/async-JavaScript-Project/issues"
   },
-  "homepage": "https://github.com/erickaltamirano07/async-JavaScript-Project#readme"
+  "homepage": "https://github.com/erickaltamirano07/async-JavaScript-Project#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
